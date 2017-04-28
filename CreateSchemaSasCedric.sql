@@ -1,5 +1,5 @@
 CREATE SCHEMA `RandomPicture`;
-
+USE `RandomPicture`;
 CREATE TABLE `RandomPicture`.`UserAccount` (
  `UserId` INT NOT NULL,
  `UserName` VARCHAR(45) NOT NULL,
